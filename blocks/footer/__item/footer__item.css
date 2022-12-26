@@ -1,0 +1,20 @@
+@media screen and (max-width: 475px) {
+    .footer__item {
+        display: block;
+        margin-bottom: 32px;
+    }
+    .footer__item:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .footer__item {
+        display: block;
+        margin-bottom: 32px;
+    }
+    .footer__item:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -6,7 +6,7 @@
     grid-gap: 48px 40px;
 }
   
-  .place:last-child {
+.place:last-child {
     margin-bottom: 0;
 }
 
@@ -21,6 +21,14 @@
     .place {
     max-width: 720px;
     margin: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .place {
+        max-width: 651px;
+        margin: 74px 0 0;
+        display: block;
     }
 }
 

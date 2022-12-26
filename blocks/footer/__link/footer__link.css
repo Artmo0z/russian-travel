@@ -7,14 +7,7 @@
     text-decoration: none;
     transition: .2s ease-in;
 }
-  
-  .footer__link:hover {
-    opacity: .8;
-}
 
-@media screen and (max-width: 320px) {
-    .footer__link {
-        display: block;
-        margin-bottom: 32px;
-    }
+.footer__link:hover {
+    opacity: .8;
 }

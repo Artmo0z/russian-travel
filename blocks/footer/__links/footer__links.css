@@ -5,10 +5,19 @@
     display: flex;
 }
 
+@media screen and (max-width: 475px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__links {
         max-width: 186px;
         display: flex;
         flex-direction: column;
+        margin-bottom: 48px;
     }
 }
