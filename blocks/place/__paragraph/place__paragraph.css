@@ -1,9 +1,13 @@
 .place__paragraph {
-    margin: 0 0 28px;
+    margin: 0 0 26px;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     color: #fff;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +19,6 @@
 
 @media screen and (max-width: 675px) {
     .place__paragraph {
-        
         margin: 32px 16px 25px;
     }
 }
@@ -23,6 +26,9 @@
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
-        margin: 32px auto 25px;
+        margin: 25px auto 0;
+    }
+    .place__paragraph:first-of-type {
+        margin-top: 32px;
     }
 }

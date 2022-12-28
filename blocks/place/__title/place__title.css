@@ -8,13 +8,9 @@
     color: #fff;
 }
 
-.place__title:last-child {
-    color: red;
-}
-
 @media screen and (max-width: 768px) {
     .place__title {
-    max-width: 340px;
+    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
     }
@@ -31,8 +27,5 @@
 @media screen and (max-width: 320px) {
     .place__title {
     max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-    margin-left: 16px;
     }
 }

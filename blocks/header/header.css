@@ -4,12 +4,12 @@
     padding: 28px 0 56px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
+        padding-bottom: 48px;
     }
 }
 
@@ -22,5 +22,6 @@
 @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
+        padding-top: 16px;
     }
 }

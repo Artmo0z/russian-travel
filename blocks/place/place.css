@@ -3,24 +3,25 @@
     display: grid;
     grid-template-areas: "title website"
                          "image paragraphs";
-    grid-gap: 48px 40px;
+    gap: 48px 40px;
 }
-  
+
 .place:last-child {
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
-    max-width: 928px;
+    grid-template-columns: 440px auto;
     gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-    max-width: 720px;
-    margin: 88px 24px 0;
+    grid-template-columns: 340px auto;
+    gap: 48px 28px;
+    margin: 73px 24px 0;
     }
 }
 
@@ -35,7 +36,6 @@
 @media screen and (max-width: 320px) {
     .place {
     max-width: 320px;
-    margin: 64px 0 0;
-    display: block;
+    margin: 0 0 50px;
     }
 }
